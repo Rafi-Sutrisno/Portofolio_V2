@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    background-color: #33333a;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sen', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 0 6%;
+}
+
+.name{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.name h2{
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav{
+    display: flex;
+    list-style: none;
+    gap: 2px;
+    margin: 0;
+}
+
+li{
+    padding: 35px 30px;
+    background-color: lightgray;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+/*hero*/
+
+.hero{
+    
+    position: relative;
+    height: 700px;
+    margin: 50px 100px;
+    overflow-x: hidden;
+    border: 5px orange solid;
+}
+
+.hero-img{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: lightgray;
+    z-index: 1;
+}
+
+.hero-title{
+    color: white;
+    position: absolute;
+    z-index: 2;
+    width: 550px;
+    top: 50px;
+    left: 400px;
+}
+
+.hero-title .head{
+    max-width: 370px;
+}
+
+.hero-title h1{
+    font-weight: 700;
+    font-size: 55px;
+    margin: 10px 0;
+}
+
+.hero-bg{
+    position:inherit;
+    height: 550px;
+    width: 600px;
+    background-color: aqua;
+    left: 40%;
+    z-index: 0;
+}
+
+
+/*skillset*/
+
+.skill{
+    display: flex;
+    gap: 40px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 100px 100px;
+}
+
+.main-skill{
+    background-color: aquamarine;
+    max-width: 300px;
+}
+
+.list-skill{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    grid-template-rows: 1fr;
+    background-color: blueviolet;
+}
+
+.zone{
+    background-color: bisque;
+    padding: 10px;
+}
+
+.z-logo{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
