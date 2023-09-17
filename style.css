@@ -201,3 +201,34 @@ li{
     background-color: #33333a;
     color: white;
 }
+
+/*footer*/
+
+footer{
+    display: flex;
+    border: 2px solid orange;
+}
+
+footer .right{
+    height: 400px;
+    background-color: lightgrey;
+    width: 50%;
+}
+footer .left{
+    height: 400px;
+    background-color: blueviolet;
+    width: 50%;
+}
+
+.footer-end{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.footer-end h5{
+    margin: 0;
+    color: white;
+}
