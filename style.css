@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     background-color: rgb(20, 40, 29);
@@ -58,7 +62,7 @@ li{
 /*hero*/
 
 .hero{
-    
+    padding-top: 20px;
     position: relative;
     height: 700px;
     margin: 50px 100px;
@@ -143,6 +147,11 @@ li{
     height: 50px;
     width: 50px;
     background-color: #C2A878;
+    transition: all 0.5s;
+}
+
+.z-logo:hover{
+    scale: 1.09;
 }
 
 /*work*/
@@ -155,6 +164,7 @@ li{
     color: #F1F5F2;
     margin: 0 100px;
     margin-bottom: 100px;
+    padding-top: 20px;
 }
 
 .work .title{
@@ -175,7 +185,7 @@ li{
 }
 
 .this{
-    height: 600px;
+    height: 570px;
     grid-row: span 2;
     overflow-y: hidden;
     cursor: pointer;
@@ -256,13 +266,26 @@ footer .right{
 
 footer .right .a-flex{
     display: flex;
-    gap: 5px;
+    gap: 20px;
 }
 
 footer .right .a-flex .azone{
     height: 30px;
     width: 30px;
-    background-color: #C2A878;
+    background-size: cover;
+    background-position: center;
+}
+
+footer .az1{
+    background-image: url(Gambar/linkedin.png);
+}
+
+footer .az2{
+    background-image: url(Gambar/github.png);
+}
+
+footer .az3{
+    background-image: url(Gambar/instagram.png);
 }
 
 footer .top, footer .bot{
